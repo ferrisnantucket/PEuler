@@ -7,7 +7,8 @@ using namespace std;
 int main()
 {
 	int i=0;
-	//learn to make a stack. I bet it uses pointers.
+	//I want to learn to make a stack. I bet it uses pointers.
+	// add each found number to a stack that I can print
 	int sum=0;
 	for(i=0;i<999;i++)
 	{
