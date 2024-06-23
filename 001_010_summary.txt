@@ -18,6 +18,7 @@ Good to think about how to use parts of a number.
 
 5. smallest positive number that is evenly divisible by all of the numbers from 1 to 20
 I used recursion for fun.
+Every composite number has a prime factor less than or equal to its square root.
 Not much to program if you know to look for greatest number of prime factors across all numbers
 
 6. Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum
@@ -28,7 +29,7 @@ I like this problem because there is a better solution than brute force.
 By checking if a number is divisible by the list of primes found, I had a lot less to check.
 
 8. Find the thirteen adjacent digits in the 1000-digit number that have the greatest product.
-Parsing string. Multi level string literal. Cool trick to parse a number using the ascii codes.
+Parsing string. Multi line string literal. Cool trick to parse a number using the ascii codes.
 '9' is 57 in ascii. and '0' is 48. So subtracting '0' from any number in the string will return the actual int value.
 
 9. There exists exactly one pythagorean triplet for which a+b+c=1000. Find the product abc
