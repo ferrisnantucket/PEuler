@@ -1,0 +1,39 @@
+This is a summary of the problems 001-010:
+
+
+1. "Find the sum of all the multiples of 3 or 5 below 1000."
+Great for learning to print to console, use if statements, and a minor challege of not adding duplicates like 15.
+
+2. sum of even fibonacci numbers under 4 million.
+Fun idea that even numbers in fibonacci sequence are every third number.
+(This is because an even plus an odd will always be odd. An odd plus an odd will always be even. etc.)
+
+3. largest prime factor
+need to understand divisors and factors and good for working out a good way of getting each.
+(This problem comes up again for problem pe012.)
+
+4. largest palindrome
+I used the mod function to get each digit before comparing.
+Good to think about how to use parts of a number.
+
+5. smallest positive number that is evenly divisible by all of the numbers from 1 to 20
+Another problem that invloves factors. 
+Not much to program if you know to look for greatest number of prime factors across all numbers
+
+6. Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum
+too easy
+
+7. What is the 10,001st prime number?
+I like this problem because there is a better solution than brute force.
+By checking if a number is divisible by the list of primes found, I had a lot less to check.
+
+8. Find the thirteen adjacent digits in the 1000-digit number that have the greatest product.
+Parsing string. Multi level string literal. Cool trick to parse a number using the ascii codes.
+'9' is 57 in ascii. and '0' is 48. So subtracting '0' from any number in the string will return the actual int value.
+
+9. There exists exactly one pythagorean triplet for which a+b+c=1000. Find the product abc
+too easy brute force
+
+10. Find the sum of all the primes below two million.
+This is a better problem than #7. Had to use heap allocation. I didn't know how big to go so went with 1 million prime list
+Add the primes as I found them. Not hard but heap allocation was cool to learn about.
