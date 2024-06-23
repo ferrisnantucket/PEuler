@@ -17,7 +17,7 @@ I used the mod function to get each digit before comparing.
 Good to think about how to use parts of a number.
 
 5. smallest positive number that is evenly divisible by all of the numbers from 1 to 20
-Another problem that invloves factors. 
+I used recursion for fun.
 Not much to program if you know to look for greatest number of prime factors across all numbers
 
 6. Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum
