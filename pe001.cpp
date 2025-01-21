@@ -22,5 +22,5 @@ int main()
 		}
 	}
 	cout << sum << endl;	
-	
+	cout << "fuck programming" << endl;
 }

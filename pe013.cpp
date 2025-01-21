@@ -20,8 +20,8 @@ int main(int argc, char* argv[])
 		{
 			//first 10 digit math on each string.
 			
-			//get last 10 digits of each string
-			std::string s1=s.substr(38,49);
+			//get last 11 digits of each string for precision
+			std::string s1=s.substr(0,17);
 			
 			//convert each substring to a long int and sum them as converted
 			sum+=std::stoll(s1,nullptr,10);
@@ -33,7 +33,7 @@ int main(int argc, char* argv[])
 		
 		
 		
-		std::cout<<sumString.substr(sumString.length()-10,sumString.length())<<std::endl;
+		std::cout<<sumString<<std::endl;
 	}
 	return 0;
 }
